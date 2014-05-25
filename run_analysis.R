@@ -122,4 +122,4 @@ tidyMelt <- melt(tidyData, id.vars = c("subject", "activity"));
 tidyMean <- dcast(tidyMelt, subject + activity ~ variable, mean );
 
 # Write to .txt file, not including row names, since we are utilizng row numbers
-write.table(tidyMean, file = "tidy_mean.txt", row.names = FALSE);
+write.table(tidyMean, file = "tidy_mean.txt", sep="\t", row.names = FALSE);
