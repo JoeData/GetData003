@@ -209,7 +209,7 @@ Step #5 completes the run\_analysis.R script, producing a dataframe "tinyMean" a
 The tidyMean dataframe & the tab-delimited file "tidy_mean.txt" contain:
 
 * 180 rows (30 subjects x 6 activities)
-* 68 columns (2 for "subject" & "activity" and 66 for mean measurements [as calculated in step 5]
+* 68 columns (2 for "subject" & "activity" and 66 for feature value averages (mean), as calculated in step 5)
 
 |Column|Name|
 |----|-----
