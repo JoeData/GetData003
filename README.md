@@ -28,7 +28,7 @@ You should create one R script called run_analysis.R that does the following.
 * README.md - Analysis & Project overview
 * CodeBook.md - Detailed information about all data transformations & variables
 * run_analysis.R - The R script for completing all 5 required steps & output
-* tidy_mean.txt - the output of 
+* tidy\_mean.txt - the output of run\_analysis.R
 
 ### Manual Steps
 
